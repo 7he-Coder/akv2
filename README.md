@@ -6,7 +6,6 @@
 <div align="center">
   
   ![GitHub repo size](https://github.com/7he-Coder)
-  ![GitHub repo size](https://e7.pngegg.com/pngimages/914/758/png-clipart-computer-icons-logo-github-github-logo-logo-computer-program.png)
   ![gitHub stars](https://github.com/7he-Coder?tab=stars)
   ![facebook Follow](https://www.facebook.com/profile.php?id=61561229935661)
   ![instagram Follow](https://www.instagram.com/codewithabhay_/)
