@@ -6,10 +6,11 @@
 <div align="center">
   
   ![GitHub repo size](https://github.com/7he-Coder)
-  ![GitHub stars](https://github.com/7he-Coder?tab=stars)
+  ![GitHub repo size](https://e7.pngegg.com/pngimages/914/758/png-clipart-computer-icons-logo-github-github-logo-logo-computer-program.png)
+  ![gitHub stars](https://github.com/7he-Coder?tab=stars)
   ![facebook Follow](https://www.facebook.com/profile.php?id=61561229935661)
-[![Instagram Follow](https://www.instagram.com/codewithabhay_/)
-  [![Discord Follow](https://discord.com/channels/1022510020736331806/1067065880967647282)
+  ![instagram Follow](https://www.instagram.com/codewithabhay_/)
+  ![discord Follow](https://discord.com/channels/1022510020736331806/1067065880967647282)
 
   <br />
   <br />
