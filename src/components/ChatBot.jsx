@@ -1,5 +1,5 @@
 import { FaRocketchat } from "react-icons/fa";
-import ChateBot from "../assets/images/3d-Img/d-5.png";
+import ChateBot from "../assets/images/3d-Img/D-5.png";
 
 const ChatBot = () => {
 	return (

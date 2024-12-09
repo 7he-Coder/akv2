@@ -1,5 +1,5 @@
 import hero1 from "../assets/images/hero.png";
-import hero2 from "../assets/images/3d-Img/d-1.png";
+import hero2 from "../assets/images/3d-Img/D-1.png";
 
 const HeroSection = () => {
 	return (
