@@ -1,0 +1,94 @@
+/*-----------------------------------*\
+  #LOADING
+\*-----------------------------------*/
+
+.loading {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: #fff;
+	z-index: 999999999;
+	transform-origin: bottom;
+	transition: 0.5s cubic-bezier(0.51, 0.03, 0.64, 0.28);
+	transition-delay: 0.5s;
+}
+
+.loading.loaded {
+	transform: scaleY(0);
+	pointer-events: none;
+}
+
+.loading > * {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: 0.5s ease;
+}
+
+.loading.loaded > * {
+	opacity: 0;
+}
+
+.loading .circle {
+	animation: rotate360 1.5s linear infinite;
+}
+
+@keyframes rotate360 {
+	0% {
+		transform: translate(-50%, -50%) rotate(0);
+	}
+	100% {
+		transform: translate(-50%, -50%) rotate(1turn);
+	}
+}
+
+/*-----------------------------------*\
+  #BACK TO TOP
+\*-----------------------------------*/
+
+.back-top-btn {
+	position: fixed;
+	bottom: 10px;
+	right: -90px;
+	width: 70px;
+	height: 70px;
+	border: 1px dashed currentColor;
+	color: hsl(232, 57%, 66%);
+	font-size: 1rem;
+	border-radius: hsl(232, 57%, 66%);
+	display: grid;
+	place-items: center;
+	visibility: hidden;
+	border-radius: 50%;
+	transition: 0.5s ease;
+	z-index: 3;
+}
+
+.back-top-btn.show {
+	transform: translateX(-100px);
+	visibility: visible;
+}
+
+.back-top-btn:hover {
+	color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+	.back-top-btn {
+		width: 60px;
+		height: 60px;
+		bottom: 55px;
+		right: -95px;
+	}
+}
+
+/*-----------------------------------*\
+  #CUSTOM CURSOR
+\*-----------------------------------*/
+
+.cursor {
+	display: none;
+}

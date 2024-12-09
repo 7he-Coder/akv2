@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="188" height="188" viewBox="0 0 188 188">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-loading-circle);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #9a00ff;
+      }
+
+      .cls-2 {
+        stroke: rgba(255,255,255,0.88);
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        filter: url(#Ellipse_1);
+      }
+
+      .cls-8 {
+        filter: url(#Ellipse_2);
+      }
+    </style>
+    <filter id="Ellipse_2" x="-16" y="-14" width="105" height="106" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur"/>
+      <feFlood flood-color="#9a00ff" flood-opacity="0.988"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_1" x="-14" y="-12" width="101" height="102" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur-2"/>
+      <feFlood flood-color="#9a00ff" flood-opacity="0.988"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-loading-circle">
+      <rect width="188" height="188"/>
+    </clipPath>
+  </defs>
+  <g id="loading-circle" class="cls-1">
+    <rect class="cls-6" width="188" height="188"/>
+    <g id="Group_2" data-name="Group 2">
+      <g class="cls-8" transform="matrix(1, 0, 0, 1, 0, 0)">
+        <g id="Ellipse_2-2" data-name="Ellipse 2" class="cls-2" transform="translate(23 25)">
+          <ellipse class="cls-4" cx="13.5" cy="14" rx="13.5" ry="14"/>
+          <ellipse class="cls-5" cx="13.5" cy="14" rx="13" ry="13.5"/>
+        </g>
+      </g>
+      <g class="cls-7" transform="matrix(1, 0, 0, 1, 0, 0)">
+        <ellipse id="Ellipse_1-2" data-name="Ellipse 1" class="cls-3" cx="11.5" cy="12" rx="11.5" ry="12" transform="translate(25 27)"/>
+      </g>
+    </g>
+  </g>
+</svg>
