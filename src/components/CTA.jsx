@@ -1,4 +1,4 @@
-import cta from "../assets/IMAGES/cta.png";
+import cta from "../assets/images/cta.png";
 
 const CTA = () => {
 	return (
