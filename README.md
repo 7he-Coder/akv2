@@ -6,10 +6,10 @@
 <div align="center">
   
   ![GitHub repo size](https://github.com/7he-Coder)
-  ![gitHub stars](https://github.com/7he-Coder?tab=stars)
-  ![facebook Follow](https://www.facebook.com/profile.php?id=61561229935661)
-  ![instagram Follow](https://www.instagram.com/codewithabhay_/)
-  ![discord Follow](https://discord.com/channels/1022510020736331806/1067065880967647282)
+  ![GitHub stars](https://github.com/7he-Coder?tab=stars)
+  ![Facebook Follow](https://www.facebook.com/profile.php?id=61561229935661)
+  ![Instagram Follow](https://www.instagram.com/codewithabhay_/)
+  ![Discord Follow](https://discord.com/channels/1022510020736331806/1067065880967647282)
 
   <br />
   <br />
