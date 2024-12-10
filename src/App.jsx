@@ -3,11 +3,13 @@ import OtherStuff from "./components/OtherStuff";
 import ChatBot from "./components/ChatBot";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
+// import LoadScroll from "./LoadScroll";
 import CTA from "./components/CTA";
 
 const App = () => {
 	return (
 		<>
+			{/* <LoadScroll /> */}
 			<Navbar />
 			<OtherStuff />
 			<ChatBot />
