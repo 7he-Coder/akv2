@@ -1,6 +1,5 @@
 `use strict`;
 
-
 // PRELOADING
 
 const loadingElement = document.querySelector("[data-loading]");

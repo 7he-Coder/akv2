@@ -1,3 +1,5 @@
+import { TiMinus } from "react-icons/ti";
+
 const About = () => {
 	return (
 		<>
@@ -5,8 +7,8 @@ const About = () => {
 				className="about w-full h-screen bg-eerie-black place-items-center"
 				id="about"
 			>
-				<h2 className="text-PrimaryText font-ff-1 capitalize drop-shadow-sm">
-					About section
+				<h2 className="text-PrimaryPara inline-flex items-center font-ff-1 capitalize drop-shadow-sm py-4">
+					<TiMinus /> <span className="ml-1">About section</span>
 				</h2>
 			</section>
 		</>
