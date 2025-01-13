@@ -1,4 +1,5 @@
 import cta from "../assets/images/cta.png";
+import { FaStar } from "react-icons/fa";
 
 const CTA = () => {
 	return (
@@ -20,12 +21,30 @@ const CTA = () => {
 						</div>
 
 						{/* right side  */}
-						<div className="flex gap-4 *:place-items-center mt-10 lg:mt-0">
-							<div className="box1 w-52 h-28 bg-yellow-700">
-								<h6>15K year+ experience</h6>
+						<div className="block md:flex gap-8 *:place-items-center mt-10 lg:mt-0">
+							<div className="box1 w-56 h-32 my-10 md:my-0 md:mt-2 pl-6 py-3 bg-purple-700 border-2 rounded-2xl">
+								<div className="innerBox w-56 h-32 bg-Gradient-1 drop-shadow-2xl shadow-black rounded-2xl">
+									<h6 className="grid gap-1 py-1">
+										<FaStar className="text-2xl text-left ml-2 mt-1" />
+										<strong className="text-5xl tracking-tighter text-center">
+											1.5 year+
+										</strong>
+										<p className="text-2xl capitalize text-center">
+											experience
+										</p>
+									</h6>
+								</div>
 							</div>
-							<div className="box3 w-52 h-28 bg-red-700">
-								<h6>10K happy clients</h6>
+							<div className="box3 w-56 h-32 my-4 md:mt-2 md:ml-6 pl-6 py-3 bg-purple-700 border-2 rounded-2xl">
+								<div className="innerBox2 w-56 h-32 bg-Gradient-1 drop-shadow-2xl shadow-black rounded-2xl">
+									<h6 className="grid gap-1 py-1">
+										<FaStar className="text-2xl text-left ml-2 mt-1" />
+										<strong className="text-5xl text-center">10K+</strong>
+										<p className="text-2xl capitalize text-center">
+											happy clients
+										</p>
+									</h6>
+								</div>
 							</div>
 						</div>
 					</div>

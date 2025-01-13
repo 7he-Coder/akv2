@@ -4,7 +4,7 @@ import { navItems } from "../constant";
 const Navbar = () => {
 	return (
 		<>
-			<div className="absolute inset-0 z-[999999]">
+			<div className="absolute inset-0 z-[99999]">
 				<svg
 					className="size-[200px] md:size-[300px] xl:size-[400px]"
 					viewBox="0 0 800 800"

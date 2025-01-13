@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-	--smokey-black: hsl(0, 0%, 7%);
+	--smokey-black: hsl(0, 0%, 0%);
 	--eerie-black: hsl(0, 0%, 9%);
 	--radical-blue: hsl(232, 57%, 66%); /* #ff295b */
 	--radical-purple1: hsl(276, 98%, 81%); /* #ff295b */
@@ -25,7 +25,7 @@ body {
 	line-height: 1.5;
 	color-scheme: light dark;
 	color: rgba(255, 255, 255, 0.87);
-	background-color: #010101;
+	background-color: #000000;
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
