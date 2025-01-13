@@ -14,9 +14,8 @@ const App = () => {
 			<OtherStuff />
 			<ChatBot />
 			<HeroSection />
-
 			<CTA />
-			<div className="max-w-7xl mx-auto pt-20 px-6">
+			<div className="max-w-screen-2xl mx-auto pt-20 px-6">
 				<About />
 			</div>
 		</>
