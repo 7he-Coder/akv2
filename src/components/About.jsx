@@ -1,5 +1,5 @@
 import { TiMinus } from "react-icons/ti";
-import about from "../assets/images/About.png";
+import AboutBg from "../assets/images/About.png";
 import { RxArrowTopRight } from "react-icons/rx";
 
 const About = () => {
@@ -74,12 +74,10 @@ const About = () => {
 				</h2>
 
 				<div className="innerContainer grid gap-12 grid-cols-1 md:grid-cols-2 justify-between">
-					{/* about image */}
 					<div className="aboutImage">
-						<img src={about} width={600} alt="about image" />
+						<img src={AboutBg} width={600} alt="about image" />
 					</div>
 
-					{/* about content */}
 					<div className="aboutContent md:text-right">
 						<div className="[&_h4]:text-xl md:[&_h4]:text-2xl 2xl:[&_h4]:text-3xl [&_h4]:mb-1">
 							<h4>Abhay Kumar</h4>
@@ -94,7 +92,7 @@ const About = () => {
 								intuitive mobile apps, and e-commerce solutions that help
 								businesses grow. With a focus on quality, innovation, and
 								customer satisfaction, we deliver tailored solutions that meet
-								your unique needs. Let’s turn your ideas into reality. Get in
+								your unique needs. Let's turn your ideas into reality. Get in
 								touch today!
 							</p>
 
