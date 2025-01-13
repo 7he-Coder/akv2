@@ -1,7 +1,6 @@
 import { TiMinus } from "react-icons/ti";
 import { RxArrowTopRight } from "react-icons/rx";
-import AboutBg from "../assets/images/About.png";
-import React from "react";
+import aboutBg from "../assets/images/About1.png";
 
 const AboutSection = () => {
 	return (
@@ -51,7 +50,7 @@ const AboutSection = () => {
 
 			<div className="innerContainer grid gap-12 grid-cols-1 md:grid-cols-2 justify-between">
 				<div className="aboutImage">
-					<img src={AboutBg} width={600} loading="lazy" alt="about image" />
+					<img src={aboutBg} width={600} loading="lazy" alt="about image" />
 				</div>
 
 				<div className="aboutContent md:text-right">
