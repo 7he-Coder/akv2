@@ -18,6 +18,12 @@ const ChatBot = () => {
 					</span>
 				</div>
 			</div>
+
+			<div className="chatBot fixed bottom-56 md:bottom-52 right-2 md:right-5 z-[999999]">
+				<div className="bg-red-700 drop-shadow-2xl rounded-sm p-3 md:p-4 xl:p-5 *:text-xl *:capitalize *:font-ff-2 *:first-letter:text-5xl">
+					<h6>Site is under maintenance.</h6>
+				</div>
+			</div>
 		</>
 	);
 };

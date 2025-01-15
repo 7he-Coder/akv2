@@ -52,10 +52,16 @@ const AboutSection = () => {
 
 				<div className="aboutContent md:text-right">
 					<div className="[&_h4]:text-xl md:[&_h4]:text-2xl 2xl:[&_h4]:text-3xl [&_h4]:mb-1">
-						<h4>Abhay Kumar</h4>
+						<h4>Web + App Developer and Designer</h4>
 						<div className="[&_p]:text-lg md:[&_p]:text-xl 2xl:[&_p]:text-2xl leading-snug">
-							<p>+91 7379289932</p>
-							<p>aabhaykumar469@gmail.com</p>
+							<div>
+								<a href="tel:+917379289932">7379289932</a>
+							</div>
+							<div>
+								<a href="mailto:aabhaykumar469@gmail.com">
+									aabhaykumar469@gmail.com
+								</a>
+							</div>
 						</div>
 					</div>
 					<div className="text-left py-16 *:py-4">
