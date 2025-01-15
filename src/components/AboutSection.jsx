@@ -4,10 +4,7 @@ import aboutBg from "../assets/images/About1.png";
 
 const AboutSection = () => {
 	return (
-		<section
-			className="about w-full h-screen w-xl place-items-center"
-			id="about"
-		>
+		<section className="about w-full h-full w-xl place-items-center" id="about">
 			<h2 className="text-PrimaryPara my-10 inline-flex items-center font-ff-1 capitalize drop-shadow-sm py-4">
 				<div className="absolute bottom-1 -left-8 -z-20">
 					<svg
@@ -48,7 +45,7 @@ const AboutSection = () => {
 				</div>
 			</h2>
 
-			<div className="innerContainer grid gap-12 grid-cols-1 md:grid-cols-2 justify-between">
+			<div className="innerContainer grid gap-12 grid-cols-1 xl:grid-cols-2 justify-between">
 				<div className="aboutImage">
 					<img src={aboutBg} width={600} loading="lazy" alt="about image" />
 				</div>
@@ -73,6 +70,7 @@ const AboutSection = () => {
 						<div className="mt-4">
 							<div className="bg-Gradient-1 max-w-min p-4 rounded-full text-4xl">
 								<a
+									className="*:hover:rotate-90 *:hover:duration-150 *:hover:ease-linear"
 									href="https://drive.google.com/file/d/1oE3QJnmjSJSVdB9wOAu6wu3m24IcfC1O/view?usp=drive_link"
 									target="_blank"
 								>
